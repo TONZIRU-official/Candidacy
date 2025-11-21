@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Server Defense Bot - 拡張機能一覧</title>
+<style>
+  body {
+    margin: 0;
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: "Segoe UI", sans-serif;
+  }
+  header {
+    background: #161b22;
+    padding: 20px 40px;
+    border-bottom: 1px solid #30363d;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #58a6ff;
+    font-weight: 700;
+  }
+  .section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #79c0ff;
+  }
+  .extensions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+  .card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    padding: 24px;
+    border-radius: 12px;
+    transition: 0.2s;
+  }
+  .card:hover {
+    border-color: #58a6ff;
+  }
+  .card h3 {
+    font-size: 22px;
+    color: #58a6ff;
+    margin-bottom: 12px;
+  }
+  .card p {
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background: #161b22;
+    border-top: 1px solid #30363d;
+    font-size: 14px;
+    opacity: 0.75;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Server Defense Bot - 拡張機能一覧</h1>
+</header>
+
+<section class="section">
+  <h2>🔧 利用可能な拡張機能</h2>
+  <div class="extensions">
+
+    <div class="card">
+      <h3>M60（高速防衛モジュール）</h3>
+      <p>
+        サーバー内のメッセージをリアルタイム監視し、攻撃傾向を検出。
+        過負荷攻撃・連投・メンション爆撃などを瞬時に判断し、
+        Server Defense Bot に緊急信号を送信します。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>M4（リンク保護モジュール）※非実装</h3>
+      <p>
+        危険なURLを検出し、未然に削除します。
+        フィッシングサイト、自動拡散リンクに強いモデル。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>G36（トリアージモジュール）※非実装</h3>
+      <p>
+        異常行動を検出したユーザーを自動的に隔離ロールへ。
+        Server Defense Bot と連携し安全な環境を維持します。
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>MP7（行動解析AI）※非実装</h3>
+      <p>
+        AIがユーザーの行動パターンを分析し、荒らしの予兆を検出します。
+        ※高度モジュールのため導入には申請が必要です。
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  Server Defense Bot - 拡張機能ページ
+</footer>
+</body>
+</html>
